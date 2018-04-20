@@ -93,10 +93,10 @@
     "request": "browser-request"
   },
   "dependencies": {
-    "litecore-lib": "^0.13.22",
-    "litecore-node": "^3.1.11",
-    "insight-lite-api": "^0.4.4",
-    "insight-lite-ui": "^0.4.2"
+    "litecore-lib": "flash-coin/litecore-lib",
+    "litecore-node": "flash-coin/litecore-node",
+    "insight-lite-api": "flash-coin/insight-lite-api",
+    "insight-lite-ui": "flash-coin/insight-lite-ui"
   },
   "license": "MIT",
   "devDependencies": {
