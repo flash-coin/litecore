@@ -9,7 +9,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test/** --recursive",
-    "build-deb": "./scripts/build-deb"
+    "build-deb": "./scripts/build-deb",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "bin": {
     "litecore": "./bin/litecore",
@@ -96,7 +98,8 @@
     "litecore-lib": "flash-coin/litecore-lib",
     "litecore-node": "flash-coin/litecore-node",
     "insight-lite-api": "flash-coin/insight-lite-api",
-    "insight-lite-ui": "flash-coin/insight-lite-ui"
+    "insight-lite-ui": "flash-coin/insight-lite-ui",
+    "snyk": "^1.251.0"
   },
   "license": "MIT",
   "devDependencies": {
@@ -136,5 +139,6 @@
     "tmp": "tmp/litecore-4.1.10.tgz_1495034874818_0.9911165973171592"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/litecore/-/litecore-4.1.10.tgz"
+  "_resolved": "https://registry.npmjs.org/litecore/-/litecore-4.1.10.tgz",
+  "snyk": true
 }

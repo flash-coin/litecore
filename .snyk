@@ -1,0 +1,12 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - insight-lite-api > litecore-lib > lodash:
+        patched: '2019-11-22T07:11:39.677Z'
+    - litecore-node > litecore-lib > lodash:
+        patched: '2019-11-22T07:11:39.677Z'
+    - insight-lite-api > litecore-message > litecore-lib > lodash:
+        patched: '2019-11-22T07:11:39.677Z'
